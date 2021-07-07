@@ -105,8 +105,6 @@ def wefrset(mon):#水曜日と金曜日の特殊処理
 
 
 
-
-
 def alldays(mon,wed,fri,A):#出席可能日数算出
     listc=calendar.monthcalendar(int(year), int(mon))
     days=[]
